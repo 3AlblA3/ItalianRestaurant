@@ -7,51 +7,61 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h3>HOME</h3>
-        <h3>MENU</h3>
-        <h3>OUR STORY</h3>
-        <h3>CONTACT US</h3>
-        <input type="text" id="recherche"  name="recherche">
+    <header class="header">
+        <div class="header__menu">
+        <h3 class="header__menu__element">HOME</h3>
+        <h3 class="header__menu__element">MENU</h3>
+        <h3 class="header__menu__element">OUR STORY</h3>
+        <h3 class="header__menu__element">CONTACT US</h3>
+        </div>
+        <input class="header__input" type="text" id="recherche"  name="recherche">
     </header>
     <main>
-        <section>
-            <div>
-                <img src="" alt="">
-                <h1>ITALIAN FOOD</h1>
-                <h3>Lorem ipsum dolor</h3>
-                <button type="submit" name="readMore" id="readMore">Read More</button>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos ea atque aliquam nisi. Voluptatem debitis dolore nobis nisi itaque numquam rerum sit consequatur</p>
+        <section class="firstBlock">
+            <div class="firstBlock__container">
+                <img class="firstBlock__container__logo" src="images/chef.png" alt="logo_Chef">
+                <h1 class="firstBlock__container__title">ITALIAN FOOD</h1>
+                <h4 class="firstBlock__container_subtitle">Lorem ipsum dolor</h4>
+                <button class="firstBlock__container__button" name="readMore" id="readMore">Read More</button>
+                <p class="firstBlock__container__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos ea atque aliquam nisi. Voluptatem debitis dolore nobis nisi itaque numquam rerum sit consequatur</p>
             </div>        
-            <div>
-                <img src="" alt="">
+            <div class="firstBlock__container">
+                <img class="firstBlock__container__image" src="images/pasta.png" alt="pâtes ">
             </div>
         </section>
-        <section>
-            <div>
+        <section class="secondBlock">
+            <div class="secondBlock__firstContainer">
                 <h1>lorem ipsum dolor</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum impedit quam laudantium porro iure dolores asperiores, amet.</p>
             </div>
+            <div class="secondBlock__secondContainer">
+                <div class="secondBlock__secondContainer__card">
+                    <img class="secondBlock__secondContainer__card__image" src="" alt="">
+                    <h3 class="secondBlock__secondContainer__card__title">lore ipsum</h3>
+                    <p class="secondBlock__secondContainer__card__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, quasi libero quia</p>
+                </div>
+                <div class="secondBlock__secondContainer__card">
+                    <img class="secondBlock__secondContainer__card__image" src="" alt="">
+                    <h3 class="secondBlock__secondContainer__card__title">lore ipsum</h3>
+                    <p class="secondBlock__secondContainer__card__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, quasi libero quia</p>
+                </div>
+                <div class="secondBlock__secondContainer__card">
+                    <img class="secondBlock__secondContainer__card__image" src="" alt="">
+                    <h3 class="secondBlock__secondContainer__card__title">lore ipsum</h3>
+                    <p class="secondBlock__secondContainer__card__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, quasi libero quia</p>
+                </div>
+            </div>
+            <button class="secondBlock__button" name="Show More" id="Show More">SHOW MORE</button>
+        </section>
+        <section>
+            <h1>Lorem Ipsum Dolor</h1>
             <div>
-                <div>
-                    <img src="" alt="">
-                    <h3>lore ipsum</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, quasi libero quia</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>lore ipsum</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, quasi libero quia</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>lore ipsum</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, quasi libero quia</p>
-                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores maiores repellat temporibus!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores maiores repellat temporibus!</p>
             </div>
         </section>
     </main>
     
 <script></script>
 </body>
-</html>
+</html>     

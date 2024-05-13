@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header .header__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 40rem;
+}
+header .header__menu__element {
+  padding-left: 1rem;
+}
+header .header__input {
+  border-radius: 20px;
+  height: 2rem;
+  padding: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */
